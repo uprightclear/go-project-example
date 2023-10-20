@@ -1,0 +1,25 @@
+{
+  "server": {
+    "port": 8080,
+    "log": {
+      "accessLog": "access.log",
+      "appLog": "app.log"
+    }
+  },
+  "db": {
+    "mysql": {
+      "host": "",
+      "database": "",
+      "user": "",
+      "password": ""
+    }
+  },
+  "cache": {
+    "redis": {
+      "host": "",
+      "prefix": "",
+      "database": 0,
+      "password": ""
+    }
+  }
+}
